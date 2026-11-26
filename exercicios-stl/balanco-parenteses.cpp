@@ -5,7 +5,7 @@ int main ()
 {
     string t;
 
-    while (getline(cin,t))
+    while (cin >> t)
     {
         stack<char> st;
         bool ok = true;
